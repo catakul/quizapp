@@ -84,8 +84,10 @@ body.wrong {
   border-color: black;
 }
 
+/*.next-btn,
 .start-btn,
-.next-btn {
+.show-btn, */
+.bookmark-btn {
   font-size: 1.1rem;
   font-weight: bold;
   padding: 6px 20px;
@@ -94,7 +96,7 @@ body.wrong {
 
 .controls {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 /* .hide {
