@@ -1,23 +1,23 @@
-body {
-  background-color: #7c8fa2;
-}
-
 header {
-  background-color: #1414e9;
-  margin: 40px; /*für den Abstand zum nächsten element*/
+  background-color: #1cc894;
+  margin: 30px; /*für den Abstand zum nächsten element*/
   padding: 0px;
   height: 65px;
   width: 93, 5%;
-  border-radius: 50px;
+  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 1px black;
+  box-shadow: 0 0 10px 3px;
+  color: whitesmoke;
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
-  color: beige;
+  font-size: xx-large;
+  /* display: flex;
+  justify-content: center;*/
+  color: whitesmoke;
   font-family: "patrick-hand", cursive; /*funktioniert nur kursiv...*/
   text-decoration: overline, underline; /*warum funkt. es nicht?*/
 }
