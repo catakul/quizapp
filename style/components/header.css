@@ -1,4 +1,23 @@
+body {
+  background-color: #7c8fa2;
+}
+
 header {
-  background-color: red;
-  color: rgb(244, 244, 244);
+  background-color: #1414e9;
+  margin: 40px; /*für den Abstand zum nächsten element*/
+  padding: 0px;
+  height: 65px;
+  width: 93, 5%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  color: beige;
+  font-family: "patrick-hand", cursive; /*funktioniert nur kursiv...*/
+  text-decoration: overline, underline; /*warum funkt. es nicht?*/
 }

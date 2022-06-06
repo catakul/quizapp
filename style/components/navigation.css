@@ -2,27 +2,30 @@
 .topnav {
   background-color: #333;
   overflow: hidden;
-  border-radius: 17px; /* needs fix*/
+  /* display: flex;
+  justify-content: space-between; BRINGT IWIE NIX*/
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
   float: left;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
+  color: white;
+  /*display: flex;
+  align-content: space-between; bringt iwie nix */
+  padding: 5px 17px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
+  border-radius: 20px;
 }
 
 /* Change the color of links on hover */
 .navbar a:hover {
-  background-color: rgb(119, 116, 116);
+  background-color: whitesmoke;
   color: #1414e9;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
   background-color: #1414e9;
-  color: white;
+  color: beige;
 }
