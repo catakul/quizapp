@@ -9,7 +9,7 @@ export default function toggleAnswer() {
   });
 }
 
-export default function hideAnswer(){
+/*export default function hideAnswer(){
 const loginButton = document.querySelector('[data-js="show__answer"]');
 
 let isAnswerShown = false;
@@ -25,4 +25,4 @@ loginButton.addEventListener("click", () => {
     loginButton.innerText = 'Show answer';
   }
 })
-}
+} */
