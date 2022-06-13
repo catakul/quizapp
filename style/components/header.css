@@ -1,5 +1,5 @@
 header {
-  background-color: #1cc894;
+  background-color: #399def;
   margin: 30px; /*für den Abstand zum nächsten element*/
   padding: 0px;
   height: 65px;
@@ -18,6 +18,6 @@ h1 {
   /* display: flex;
   justify-content: center;*/
   color: whitesmoke;
-  font-family: "patrick-hand", cursive; /*funktioniert nur kursiv...*/
+  /*font-family: "patrick-hand", cursive; funktioniert nur kursiv...*/
   text-decoration: overline, underline; /*warum funkt. es nicht?*/
 }

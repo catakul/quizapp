@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css"  />
+    <script src="./js/index.js" type="module" defer></script>
     <title>Quizapp by Cengiz Atakul</title>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
     rel="stylesheet"
@@ -15,73 +16,77 @@
      <h1>Quiz-App</h1>
   </header>
 
-<div class="question-one">
-  <div id="question-container" class="hide">
-    <div id="answer-buttons" class="btn-grid">
-<button class="btn">Answer 1</button>
-<button class="btn">Answer 2</button>
-<button class="btn">Answer 3</button>
-<button class="btn">Answer 4</button>
+  <br>
+
+<div class="question__card" data-js="card">
+  <div class="quiz__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, nobis iusto. Atque rem ut dignissimos quibusdam totam hic, quidem eligendi praesentium exercitationem cupiditate, ullam aut omnis iure saepe quo at.
+    <div class="button__grid">
+<button class="answer__button">Answer 1</button>
+<button class="answer__button">Answer 2</button>
+<button class="answer__button">Answer 3</button>
+<button class="answer__button">Answer 4</button>
+
     </div>
+    <p data-js="answer" class="card__answer hidden__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dicta dolor non corrupti obcaecati deleniti voluptas dignissimos quam aut quo in facilis, ab, voluptatem fugit maiores itaque illo beatae nisi?</p>
   </div>
 
-  <div class="controls">
-<button id="start-btn" class="start-btn btn">Start</button>
-<button id="next-btn" class="next-btn btn hide">Next</button>
+  <div  class="control__buttons">
+    <button data-js="show__answer" class="show__button">Show Answer</button>
+    <button data-js="bookmark__question" class="bookmark__button">Bookmark</button>
   </div>
 </div>
-  <div class="score">
-    <span id="right-answers"></span>
   
-</div>
-<div class="question-two">
-  <div id="question-container" class="hide">
-    <div id="answer-buttons" class="btn-grid">
-<button class="btn">Answer 1</button>
-<button class="btn">Answer 2</button>
-<button class="btn">Answer 3</button>
-<button class="btn">Answer 4</button>
+<br>
+<br>
+
+<div class="question__card" data-js="card">
+  <div class="quiz__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis explicabo aperiam unde quae obcaecati magni exercitationem blanditiis illo totam! Ad sunt officia harum minus earum nulla natus quaerat commodi?
+    <div class="button__grid">
+<button class="answer__button">Answer 1</button>
+<button class="answer__button">Answer 2</button>
+<button class="answer__button">Answer 3</button>
+<button class="answer__button">Answer 4</button>
     </div>
+    <p data-js="answer" class="card__answer hidden__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dicta dolor non corrupti obcaecati deleniti voluptas dignissimos quam aut quo in facilis, ab, voluptatem fugit maiores itaque illo beatae nisi?</p>
   </div>
 
-  <div class="controls">
-<button id="start-btn" class="start-btn btn">Start</button>
-<button id="next-btn" class="next-btn btn hide">Next</button>
+  <div class="control__buttons">
+    <button data-js="show__answer" class="show__button">Show Answer</button>
+    <button data-js="bookmark__question" class="bookmark__button">Bookmark</button>
   </div>
 </div>
-  <div class="score">
-    <span id="right-answers"></span>
   
-</div>
-<div class="question-three">
-  <div id="question-container" class="hide">
-    <div id="answer-buttons" class="btn-grid">
-<button class="btn">Answer 1</button>
-<button class="btn">Answer 2</button>
-<button class="btn">Answer 3</button>
-<button class="btn">Answer 4</button>
+<br>
+<br>
+
+
+<div class="question__card" data-js="card">
+  <div class="quiz__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dolores nulla harum animi soluta natus atque voluptas rem optio neque veritatis ullam error aliquid ut unde incidunt, quas enim quibusdam.
+    <div class="button__grid">
+<button class="answer__button">Answer 1</button>
+<button class="answer__button">Answer 2</button>
+<button class="answer__button">Answer 3</button>
+<button class="answer__button">Answer 4</button>
     </div>
+    <p data-js="answer" class="card__answer hidden__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dicta dolor non corrupti obcaecati deleniti voluptas dignissimos quam aut quo in facilis, ab, voluptatem fugit maiores itaque illo beatae nisi?</p>
   </div>
 
-  <div class="controls">
-<button id="start-btn" class="start-btn btn">Start</button>
-<button id="next-btn" class="next-btn btn hide">Next</button>
+  <div class="control__buttons">
+    <button data-js="show__answer" class="show__button">Show Answer</button>
+    <button data-js="bookmark__question" class="bookmark__button">Bookmark</button>
   </div>
 </div>
-  <div class="score">
-    <span id="right-answers"></span>
-  
-</div>
-<script src="script.js"></script>
+ 
+
 
 <br>
 <br>
 <br>
     <footer>
     <nav class="navbar">
-<a class="active" href="#link">Home</a>
+<a class="active" href="./index.html">Home</a>
 <a class="placeholder" href="./bookmark.html">Bookmarks</a>
-<a class="placeholder" href="./input.html">Create</a>
+<a class="placeholder" href="./create.html">Create</a>
 <a class="placeholder" href="./profile.html">Profile</a>
   </footer>
   
