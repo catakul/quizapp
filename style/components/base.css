@@ -1,14 +1,14 @@
 :root {
-  --hue-neutral: 200;
-  --hue-wrong: 0;
-  --hue-correct: 145;
 }
+* {
+  font-size: 10px;
+}
+/*hier sollen alle texte responsive gemacht werden*/
 
 body {
-  --hue: var(--hue-neutral);
   padding: 0;
   margin: 0;
-  background-color: #3c3d3e;
+  background-color: #014f8f;
   /*display: flex;*/
   width: 100vw;
   height: 100vw;
@@ -16,42 +16,10 @@ body {
   align-items: center;
 }
 
-body.correct {
-  --hue: var(--hue-correct);
-}
-
-body.wrong {
-  --hue: var(--hue-wrong);
-}
-
-.question-one {
+.question__card {
   width: 800px;
   max-width: 90%;
-  background-color: #1cc894;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 8px;
-  border: solid 1px black;
-  box-shadow: 0 0 10px 3px;
-  color: whitesmoke;
-  display: grid;
-}
-.question-two {
-  width: 800px;
-  max-width: 90%;
-  background-color: #1cc894;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 8px;
-  border: solid 1px black;
-  box-shadow: 0 0 10px 3px;
-  color: whitesmoke;
-  display: grid;
-}
-.question-three {
-  width: 800px;
-  max-width: 90%;
-  background-color: #1cc894;
+  background-color: #399def;
   border-radius: 5px;
   padding: 10px;
   margin: 8px;
@@ -61,18 +29,27 @@ body.wrong {
   display: grid;
 }
 
-.btn-grid {
+.button__grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   margin: 20px 0;
 }
 
-.btn {
-  --hue: var(--hue-neutral);
+.show__button:hover,
+.bookmark__button:hover,
+.answer__button:hover {
+  border-color: black;
+}
+
+.answer__button,
+.show__button,
+.bookmark__button {
+  font-size: 1.35rem;
+  font-weight: bold;
+  padding: 6px 20px;
   border: 1px solid;
-  background: linear-gradient(90deg, #6555c4 0%, #1c9bd6 102.84%);
-  background-color: ;
+  background: linear-gradient(90deg, #6555c4 0%, #045ceb 102.84%);
   border-radius: 5px;
   padding: 5px 10px;
   color: white;
@@ -80,26 +57,24 @@ body.wrong {
   cursor: pointer;
 }
 
-.btn:hover {
-  border-color: black;
-}
-
-/*.next-btn,
-.start-btn,
-.show-btn, */
-.bookmark-btn {
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding: 6px 20px;
-  cursor: pointer;
-}
-
-.controls {
+.control__buttons {
   display: flex;
   justify-content: space-evenly;
 }
 
-/* .hide {
-    display: none;
-}  if activated, only the start button will show, to start the quiz, but obvisly must be 
-programmed with js */
+.quiz__text {
+  font-size: 1.75rem;
+}
+
+.hidden__answer {
+  display: none;
+}
+
+.card__answer {
+  font-size: 1.75rem;
+  color: greenyellow;
+}
+
+.bookmark__button--active {
+  color: red;
+}

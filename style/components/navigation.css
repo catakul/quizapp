@@ -20,7 +20,7 @@
   font-size: 15px;
   border-radius: 10px;
   border: solid 1px black;
-  box-shadow: 0 0 9px 3px;
+  box-shadow: 0 0 9px 4px;
   margin: 5px;
   /* position: sticky;   NEED To make it stick to the bottom always, and be visable at the best*/
 }
@@ -28,11 +28,11 @@
 /* Change the color of links on hover */
 .navbar a:hover {
   background-color: whitesmoke;
-  color: #1cc894;
+  color: #399def;
 }
 
 /* Add a color to the active/current link */
 .navbar a.active {
-  background-color: #1cc894;
+  background-color: #399def;
   color: beige;
 }
