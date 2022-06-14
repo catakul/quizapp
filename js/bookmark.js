@@ -1,4 +1,4 @@
-export default function toggleBookmark() {
+export function toggleBookmark() {
   const bookmarks = document.querySelectorAll("[data-js=bookmark__question]");
   bookmarks.forEach((bookmark) => {
     bookmark.addEventListener("click", () => {

@@ -1,28 +1,35 @@
-export default function toggleAnswer() {
+export function toggleAnswer() {
   const cards = document.querySelectorAll("[data-js=card]");
   cards.forEach((card) => {
     const answerButton = card.querySelector("[data-js=show__answer]");
     const answer = card.querySelector("[data-js=answer]");
     answerButton.addEventListener("click", () => {
       answer.classList.toggle("hidden__answer");
+      if (answer.classList.contains("hidden__answer")) {
+        answerButton.innerText = "Show answer";
+      } else {
+        answerButton.innerText = "Hide Answer";
+      }
     });
   });
 }
 
-/*export default function hideAnswer(){
-const loginButton = document.querySelector('[data-js="show__answer"]');
+/* 
+export function hideAnswer(){
+const ShowAnswerButton = document.querySelector('[data-js="show__answer"]');
 
 let isAnswerShown = false;
 
-loginButton.addEventListener("click", () => {
+ShowAnswerButton.addEventListener("click", () => {
   isAnswerShown = !isAnswerShown;
     if (isAnswerShown) {
     
-    loginButton.innerText = 'Hide Answer';
+    ShowAnswerButton.innerText = 'Hide Answer';
     console.log(isAnswerShown);
   } else {
 
-    loginButton.innerText = 'Show answer';
+    ShowAnswerButton.innerText = 'Show answer';
   }
 })
-} */
+}
+ */
