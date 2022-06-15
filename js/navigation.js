@@ -1,4 +1,4 @@
-function navigation() {
+export function navigation() {
   const pages = document.querySelectorAll(".page");
   const navLinks = document.querySelectorAll("[data-js=nav-link]");
   const headline = document.querySelector("[data-js=headline]");
