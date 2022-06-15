@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/catakul/quizapp/issues"
   },
-  "homepage": "https://github.com/catakul/quizapp#readme"
+  "homepage": "https://github.com/catakul/quizapp#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
 }
