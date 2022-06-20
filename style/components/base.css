@@ -1,5 +1,10 @@
-/* :root {
-} */
+:root {
+  --main-color: #A5BACD; /*silver*/
+  --silver-blue: #88A6CA;
+  --snd-color: #433F40; /*purpleish*/
+  --frth-color-whitish:#F7F8FA;
+  --dark-blue: #1C477A;
+}
 * {
   font-size: 10px;
   font-family: 'patrick-hand'; /* funktioniert nur hier... */
@@ -9,81 +14,8 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #014f8f;
-  /*display: flex;*/
+  background-color: var(--frth-color-whitish);
   width: 100vw;
   height: 100vw;
-  justify-content: center;
-  align-items: center;
 }
 
-.question__card {
-  width: 800px;
-  max-width: 90%;
-  background-color: #399def;
-  border-radius: 5px;
-  padding: 10px;
-  margin: 8px;
-  border: solid 1px black;
-  box-shadow: 0 0 10px 3px;
-  color: whitesmoke;
-  display: grid;
-}
-
-.button__grid {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 10px;
-  margin: 20px 0;
-}
-
-.show__button:hover,
-.bookmark__button:hover,
-.answer__button:hover {
-  border-color: black;
-}
-
-.answer__button,
-.show__button,
-.bookmark__button {
-  font-size: 1.35rem;
-  font-weight: bold;
-  padding: 6px 20px;
-  border: 1px solid;
-  background: linear-gradient(90deg, #6555c4 0%, #045ceb 102.84%);
-  border-radius: 5px;
-  padding: 5px 10px;
-  color: white;
-  outline: none;
-  cursor: pointer;
-}
-
-.control__buttons {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.quiz__text {
-  font-size: 1.75rem;
-}
-
-.hidden__answer {
-  display: none;
-}
-
-.card__answer {
-  font-size: 1.75rem;
-  color: greenyellow;
-}
-
-.bookmark__button--active {
-  color: red;
-}
-
-.page__hidden {
-  display: none;
-}
-
-.current {
-  display: block;
-}

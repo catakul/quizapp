@@ -1,0 +1,28 @@
+.create__body{
+
+    font-family: serif;
+    background-color: #34495e;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    padding: 10rem 0 0 0;
+}
+
+.message{
+  display: flex;
+  justify-content: center;
+
+}
+
+.introduction_create{
+display: flex;
+justify-content: center;
+}
+
+.submit__text{
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding: 20px;
+    margin: 50px;
+}
